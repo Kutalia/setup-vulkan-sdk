@@ -54,7 +54,7 @@ set_property(GLOBAL APPEND PROPERTY shaderc_deps_extra "SPIRV-Tools\;spirv-tools
 set_property(GLOBAL APPEND PROPERTY shaderc_cmake_extra -DSHADERC_SKIP_TESTS:BOOL=ON)
 set_property(GLOBAL APPEND PROPERTY shaderc_cmake_extra -DSHADERC_ENABLE_SHARED_CRT:BOOL=ON)
 set_property(GLOBAL APPEND PROPERTY shaderc_cmake_extra -DSHADERC_SKIP_COPYRIGHT_CHECK:BOOL=ON)
-set_property(GLOBAL APPEND PROPERTY shaderc_commit "1bbf43f210941ba69a2cd05cf3529063f1ff5bb9")
+set_property(GLOBAL APPEND PROPERTY shaderc_commit "c0308e68c305ba8d61c12d5cef61eeb8b96084c3")
 
 # robin-hood-hashing is odd in Vulkan SDK config.json's -- but only the header is actually needed
 set_property(GLOBAL APPEND PROPERTY robin-hood-hashing_install_command 
